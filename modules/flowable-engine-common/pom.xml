@@ -37,6 +37,7 @@
             org.flowable.common.db.properties,
         </flowable.osgi.export.additional>
         <flowable.osgi.import.additional>
+            org.apache.ibatis.javassist*;resolution:=optional,
             org.junit.jupiter.api*;resolution:=optional,
             org.springframework*;resolution:=optional,
             jakarta.transaction;resolution:=optional,
